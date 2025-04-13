@@ -4,7 +4,9 @@ Configuration settings for the security scanner.
 
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
+load_dotenv()
 # Base paths
 BASE_DIR = Path(__file__).parent
 REPORTS_DIR = BASE_DIR / "reports"
@@ -109,7 +111,7 @@ REPORT_SETTINGS = {
 
 # ZAP Configuration
 ZAP_CONFIG = {
-    "api_key": "your-api-key-here",
+    "api_key":os.getenv("ZAP_API_KEY"),
     "target_url": "http://testphp.vulnweb.com",
     "scan_policy": {
         "name": "Default Policy",

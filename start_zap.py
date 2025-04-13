@@ -5,7 +5,11 @@ import subprocess
 import time
 import logging
 from pathlib import Path
-from config import ZAP_PATHS, ZAP_API_KEY, ZAP_PORT
+from config import ZAP_PATHS, SCANNER_SETTINGS
+
+# Extract settings
+ZAP_API_KEY = SCANNER_SETTINGS.get("api_key")
+ZAP_PORT = int(SCANNER_SETTINGS.get("api_url", "http://localhost:8080").split(":")[-1])
 
 # Configure logging
 logging.basicConfig(
@@ -26,6 +30,24 @@ def check_zap_installation():
                 return path
     return None
 
+def check_zap_running():
+    """Check if ZAP is running by attempting to connect to it"""
+    try:
+        import requests
+        response = requests.get(f"http://localhost:{ZAP_PORT}/")
+        return response.status_code == 200
+    except:
+        return False
+
+def wait_for_zap_start(timeout=30):
+    """Wait for ZAP to become responsive."""
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        if check_zap_running():
+            return True
+        time.sleep(1)
+    return False
+
 def start_zap():
     """Start ZAP with the correct configuration"""
     zap_path = check_zap_installation()
@@ -41,7 +63,6 @@ def start_zap():
     if system == "Darwin":  # macOS
         zap_script = os.path.join(zap_path, "zap.sh")
         if not os.path.exists(zap_script):
-            # Use jar directly if script not found
             jar_files = list(Path(zap_path).glob("zap-*.jar"))
             if not jar_files:
                 logger.error("ZAP JAR file not found")
@@ -69,29 +90,17 @@ def start_zap():
     try:
         logger.info("Starting ZAP...")
         subprocess.Popen(cmd)
-        
-        # Wait for ZAP to start
-        time.sleep(5)
-        
-        # Check if ZAP is running
-        if check_zap_running():
+
+        if wait_for_zap_start():
             logger.info("✅ ZAP started successfully")
             show_configuration_instructions()
         else:
-            logger.error("❌ Failed to start ZAP")
+            logger.error("❌ Failed to start ZAP within timeout")
             sys.exit(1)
+
     except Exception as e:
         logger.error(f"Error starting ZAP: {e}")
         sys.exit(1)
-
-def check_zap_running():
-    """Check if ZAP is running by attempting to connect to it"""
-    try:
-        import requests
-        response = requests.get(f"http://localhost:{ZAP_PORT}/")
-        return response.status_code == 200
-    except:
-        return False
 
 def show_installation_instructions():
     """Show instructions for installing ZAP"""
@@ -127,4 +136,4 @@ def main():
     start_zap()
 
 if __name__ == "__main__":
-    main() 
+    main()
