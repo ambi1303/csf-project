@@ -1,0 +1,824 @@
+2025-04-13 20:05:08,580 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:05:09,948 - ZAPScanner - INFO - Starting Quick Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:05:09,948 - ZAPScanner - INFO - Running quick scan (timeout: 300s)
+2025-04-13 20:05:09,948 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/quick_scan_20250413-200509.html -quickprogress
+2025-04-13 20:05:10,696 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:05:10,696 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:05:10,696 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:05:10,696 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:07:01,417 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:07:02,666 - ZAPScanner - INFO - Starting Quick Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:07:02,667 - ZAPScanner - INFO - Running quick scan (timeout: 300s)
+2025-04-13 20:07:02,667 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/quick_scan_20250413-200702.html -quickprogress
+2025-04-13 20:07:03,159 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:07:03,159 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:07:03,159 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:07:03,159 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:07:24,402 - ZAPScanner - INFO - Starting Baseline Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:07:24,404 - ZAPScanner - INFO - Running baseline scan (timeout: 1200s)
+2025-04-13 20:07:24,404 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/baseline_scan_20250413-200724.html -quickprogress
+2025-04-13 20:07:24,873 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:07:24,873 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:07:24,873 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:07:24,873 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:07:25,969 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:07:27,084 - ZAPScanner - INFO - Starting Baseline Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:07:27,085 - ZAPScanner - INFO - Running baseline scan (timeout: 1200s)
+2025-04-13 20:07:27,086 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/baseline_scan_20250413-200727.html -quickprogress
+2025-04-13 20:07:27,625 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:07:27,625 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:07:27,625 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:07:27,625 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:07:43,636 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:07:44,533 - ZAPScanner - INFO - Starting Full Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:07:44,534 - ZAPScanner - INFO - Running full scan (timeout: 3600s)
+2025-04-13 20:07:44,535 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/full_scan_20250413-200744.html -quickprogress -config scanner.strength=high
+2025-04-13 20:07:45,092 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:07:45,092 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:07:45,092 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:07:45,092 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:10:07,165 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:10:08,348 - ZAPScanner - INFO - Starting Quick Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:10:08,348 - ZAPScanner - INFO - Running quick scan (timeout: 300s)
+2025-04-13 20:10:08,348 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -daemon -port 8090 -config api.key=m8k0mjisskaf8klcd42fm125kt -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.addrs.addr.enabled=true -config api.key.disable=false -config api.incerrordetails=true -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/quick_scan_20250413-201008.html -quickprogress
+2025-04-13 20:10:08,883 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:10:08,883 - ZAPScanner - ERROR - Error output: 
+2025-04-13 20:10:08,883 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:10:08,883 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:10:20,871 - ZAPScanner - INFO - Starting Full Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:10:20,872 - ZAPScanner - INFO - Running full scan (timeout: 3600s)
+2025-04-13 20:10:20,873 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -daemon -port 8090 -config api.key=m8k0mjisskaf8klcd42fm125kt -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.addrs.addr.enabled=true -config api.key.disable=false -config api.incerrordetails=true -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/full_scan_20250413-201020.html -quickprogress -config scanner.strength=high
+2025-04-13 20:10:21,329 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:10:21,329 - ZAPScanner - ERROR - Error output: 
+2025-04-13 20:10:21,329 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:10:21,329 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:10:21,983 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:10:23,119 - ZAPScanner - INFO - Starting Full Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:10:23,119 - ZAPScanner - INFO - Running full scan (timeout: 3600s)
+2025-04-13 20:10:23,120 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -daemon -port 8090 -config api.key=m8k0mjisskaf8klcd42fm125kt -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.addrs.addr.enabled=true -config api.key.disable=false -config api.incerrordetails=true -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/full_scan_20250413-201023.html -quickprogress -config scanner.strength=high
+2025-04-13 20:10:23,634 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:10:23,634 - ZAPScanner - ERROR - Error output: 
+2025-04-13 20:10:23,634 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:10:23,634 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:10:26,616 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:10:27,715 - ZAPScanner - INFO - Starting Baseline Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:10:27,715 - ZAPScanner - INFO - Running baseline scan (timeout: 1200s)
+2025-04-13 20:10:27,715 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -daemon -port 8090 -config api.key=m8k0mjisskaf8klcd42fm125kt -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.addrs.addr.enabled=true -config api.key.disable=false -config api.incerrordetails=true -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/baseline_scan_20250413-201027.html -quickprogress
+2025-04-13 20:10:28,150 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:10:28,150 - ZAPScanner - ERROR - Error output: 
+2025-04-13 20:10:28,150 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:10:28,151 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:12:51,352 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:12:54,019 - ZAPIntegration - INFO - Starting full scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:12:54,020 - ZAPScanner - INFO - Starting Full Scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:12:54,020 - ZAPScanner - INFO - Running full scan (timeout: 3600s)
+2025-04-13 20:12:54,021 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://http://testphp.vulnweb.com/ -quickout reports/full_scan_20250413-201254.html -quickprogress -config scanner.strength=high
+2025-04-13 20:12:54,534 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:12:54,534 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:12:54,534 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:12:54,534 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:15:38,118 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:15:39,107 - ZAPIntegration - INFO - Starting quick scan of https://slcm.manipal.edu/
+2025-04-13 20:15:39,108 - ZAPScanner - INFO - Starting Quick Scan of https://slcm.manipal.edu/
+2025-04-13 20:15:39,108 - ZAPScanner - INFO - Running quick scan (timeout: 300s)
+2025-04-13 20:15:39,108 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl https://slcm.manipal.edu/ -quickout reports/quick_scan_20250413-201539.html -quickprogress
+2025-04-13 20:15:39,821 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:15:39,822 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:15:39,822 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:15:39,822 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:17:28,569 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:17:29,917 - ZAPIntegration - INFO - Starting full scan of https://slcm.manipal.edu/
+2025-04-13 20:17:29,917 - ZAPScanner - INFO - Starting Full Scan of https://slcm.manipal.edu/
+2025-04-13 20:17:29,918 - ZAPScanner - INFO - Running full scan (timeout: 3600s)
+2025-04-13 20:17:29,918 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl https://slcm.manipal.edu/ -quickout reports/full_scan_20250413-201729.html -quickprogress -config scanner.strength=high
+2025-04-13 20:17:30,421 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:17:30,421 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:17:30,421 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:17:30,421 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:20:12,916 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:20:13,865 - ZAPIntegration - INFO - Starting quick scan of https://slcm.manipal.edu/
+2025-04-13 20:20:14,053 - ZAPScanner - INFO - Starting Quick Scan of https://slcm.manipal.edu/
+2025-04-13 20:20:14,054 - ZAPScanner - INFO - Running quick scan (timeout: 300s)
+2025-04-13 20:20:14,054 - ZAPScanner - INFO - Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl https://slcm.manipal.edu/ -quickout reports/quick_scan_20250413-202014.html -quickprogress
+2025-04-13 20:20:14,679 - ZAPScanner - ERROR - Command failed with exit code 1
+2025-04-13 20:20:14,679 - ZAPScanner - ERROR - Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 20:20:14,679 - ZAPScanner - ERROR - Scan failed
+2025-04-13 20:20:14,679 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:22:13,907 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:22:14,955 - ZAPIntegration - INFO - Starting full scan of https://slcm.manipal.edu/
+2025-04-13 20:22:15,166 - ZAPScanner - ERROR - Error running scan: unsupported operand type(s) for /: 'str' and 'str'
+2025-04-13 20:22:15,167 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:22:39,811 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:22:40,740 - ZAPIntegration - INFO - Starting quick scan of https://slcm.manipal.edu/
+2025-04-13 20:22:40,890 - ZAPScanner - ERROR - Error running scan: unsupported operand type(s) for /: 'str' and 'str'
+2025-04-13 20:22:40,890 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:22:46,105 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:22:46,806 - ZAPIntegration - INFO - Starting baseline scan of https://slcm.manipal.edu/
+2025-04-13 20:22:46,974 - ZAPScanner - ERROR - Error running scan: unsupported operand type(s) for /: 'str' and 'str'
+2025-04-13 20:22:46,975 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:22:59,256 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:23:00,271 - ZAPIntegration - INFO - Starting baseline scan of https://slcm.manipal.edu
+2025-04-13 20:23:00,436 - ZAPScanner - ERROR - Error running scan: unsupported operand type(s) for /: 'str' and 'str'
+2025-04-13 20:23:00,436 - ZAPIntegration - ERROR - Scan failed to generate a report
+2025-04-13 20:23:15,659 - ZAPScanner - INFO - Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:23:17,424 - ZAPIntegration - INFO - Starting baseline scan of http://http://testphp.vulnweb.com/
+2025-04-13 20:23:17,464 - ZAPIntegration - ERROR - Target URL is not accessible: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //testphp.vulnweb.com/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x104fb2c60>: Failed to resolve 'http' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-04-13 20:36:49,972 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 20:36:49,975 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 20:36:49,976 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 20:36:49,976 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 20:36:49,976 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 20:37:15,339 [INFO] scan_manager: Initializing scanner for http://http://testphp.vulnweb.com/
+2025-04-13 20:37:15,340 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 20:37:15,340 [INFO] scan_manager: Starting quick scan for http://http://testphp.vulnweb.com/
+2025-04-13 20:37:15,342 [ERROR] scan_manager: Error during scan: ZAPSimpleScanner.run_scan() got an unexpected keyword argument 'report_path'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 53, in start_scan
+    scan_result = self.scanner.run_scan(
+                  ^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ZAPSimpleScanner.run_scan() got an unexpected keyword argument 'report_path'
+2025-04-13 21:32:54,093 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:32:54,094 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:32:54,094 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:32:54,095 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:32:54,095 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:33:00,957 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com/
+2025-04-13 21:33:00,958 [ERROR] scan_manager: Error during scan: 'NoneType' object has no attribute 'run_scan'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 31, in start_scan
+    scan_result = self.scanner.run_scan(scan_type)
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_scan'
+2025-04-13 21:33:13,274 [INFO] scan_manager: Starting baseline scan for http://testphp.vulnweb.com
+2025-04-13 21:33:13,275 [ERROR] scan_manager: Error during scan: 'NoneType' object has no attribute 'run_scan'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 31, in start_scan
+    scan_result = self.scanner.run_scan(scan_type)
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_scan'
+2025-04-13 21:33:17,483 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:33:17,483 [ERROR] scan_manager: Error during scan: 'NoneType' object has no attribute 'run_scan'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 31, in start_scan
+    scan_result = self.scanner.run_scan(scan_type)
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_scan'
+2025-04-13 21:33:19,124 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:33:19,125 [ERROR] scan_manager: Error during scan: 'NoneType' object has no attribute 'run_scan'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 31, in start_scan
+    scan_result = self.scanner.run_scan(scan_type)
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_scan'
+2025-04-13 21:33:19,333 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:33:19,333 [ERROR] scan_manager: Error during scan: 'NoneType' object has no attribute 'run_scan'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 31, in start_scan
+    scan_result = self.scanner.run_scan(scan_type)
+                  ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_scan'
+2025-04-13 21:34:52,226 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:34:52,227 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:34:52,227 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:34:52,228 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:34:52,228 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:35:03,874 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 21:35:03,875 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 21:35:03,876 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 21:35:03,876 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 21:35:03,877 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-213503.html -quickprogress
+2025-04-13 21:35:04,394 [ERROR] ZAPScanner: Command failed with exit code 1
+2025-04-13 21:35:04,394 [ERROR] ZAPScanner: Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 21:35:10,108 [INFO] scan_manager: Starting baseline scan for http://testphp.vulnweb.com
+2025-04-13 21:35:10,109 [INFO] ZAPScanner: Running baseline scan (timeout: 300s)
+2025-04-13 21:35:10,109 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -autorun http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/baseline_scan_20250413-213510.html
+2025-04-13 21:35:10,679 [ERROR] ZAPScanner: Command failed with exit code 1
+2025-04-13 21:35:10,679 [ERROR] ZAPScanner: Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 21:35:14,136 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:35:14,136 [INFO] ZAPScanner: Running full scan (timeout: 300s)
+2025-04-13 21:35:14,137 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -autorun http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/full_scan_20250413-213514.html -config scanner.strength=high
+2025-04-13 21:35:14,711 [ERROR] ZAPScanner: Command failed with exit code 1
+2025-04-13 21:35:14,712 [ERROR] ZAPScanner: Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 21:35:27,727 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:35:27,728 [INFO] ZAPScanner: Running full scan (timeout: 300s)
+2025-04-13 21:35:27,729 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -autorun http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/full_scan_20250413-213527.html -config scanner.strength=high
+2025-04-13 21:35:28,187 [ERROR] ZAPScanner: Command failed with exit code 1
+2025-04-13 21:35:28,187 [ERROR] ZAPScanner: Error output: The home directory is already in use. Ensure no other ZAP instances are running with the same home directory: /Users/ratish_jha/Library/Application Support/ZAP/
+
+2025-04-13 21:37:09,588 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:37:09,589 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:37:09,589 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:37:09,590 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:37:09,590 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:37:39,026 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com/
+2025-04-13 21:37:39,027 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com/
+2025-04-13 21:37:39,028 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 21:37:41,074 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 21:37:41,075 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java -cmd -quickurl http://testphp.vulnweb.com/ -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-213741.html -quickprogress
+2025-04-13 21:37:41,085 [ERROR] ZAPScanner: Error running scan: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/zap_simple.py", line 156, in run_scan
+    process = subprocess.Popen(
+              ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+2025-04-13 21:37:41,088 [ERROR] scan_manager: Error during scan: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 37, in start_scan
+    return self.process_scan_results(scan_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+2025-04-13 21:37:47,161 [INFO] scan_manager: Starting baseline scan for http://testphp.vulnweb.com/
+2025-04-13 21:37:49,198 [INFO] ZAPScanner: Running baseline scan (timeout: 900s)
+2025-04-13 21:37:49,198 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java -cmd -autorun http://testphp.vulnweb.com/ -quickout /Users/ratish_jha/Desktop/csf_proj/reports/baseline_scan_20250413-213749.html
+2025-04-13 21:37:49,207 [ERROR] ZAPScanner: Error running scan: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/zap_simple.py", line 156, in run_scan
+    process = subprocess.Popen(
+              ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+2025-04-13 21:37:49,209 [ERROR] scan_manager: Error during scan: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 37, in start_scan
+    return self.process_scan_results(scan_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+2025-04-13 21:37:54,458 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com/
+2025-04-13 21:37:56,499 [INFO] ZAPScanner: Running full scan (timeout: 1800s)
+2025-04-13 21:37:56,500 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java -cmd -autorun http://testphp.vulnweb.com/ -quickout /Users/ratish_jha/Desktop/csf_proj/reports/full_scan_20250413-213756.html -config scanner.strength=high
+2025-04-13 21:37:56,511 [ERROR] ZAPScanner: Error running scan: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/zap_simple.py", line 156, in run_scan
+    process = subprocess.Popen(
+              ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+2025-04-13 21:37:56,513 [ERROR] scan_manager: Error during scan: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 37, in start_scan
+    return self.process_scan_results(scan_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+2025-04-13 21:38:04,044 [INFO] scan_manager: Starting full scan for http://testphp.vulnweb.com
+2025-04-13 21:38:04,045 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 21:38:04,045 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java
+2025-04-13 21:38:06,082 [INFO] ZAPScanner: Running full scan (timeout: 1800s)
+2025-04-13 21:38:06,083 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java -cmd -autorun http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/full_scan_20250413-213806.html -config scanner.strength=high
+2025-04-13 21:38:06,093 [ERROR] ZAPScanner: Error running scan: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/zap_simple.py", line 156, in run_scan
+    process = subprocess.Popen(
+              ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/Applications/ZAP.app/Contents/Java'
+2025-04-13 21:38:06,095 [ERROR] scan_manager: Error during scan: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 37, in start_scan
+    return self.process_scan_results(scan_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ScanManager.process_scan_results() missing 1 required positional argument: 'report_path'
+2025-04-13 21:39:40,335 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:39:40,337 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:39:40,337 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:39:40,338 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:39:40,338 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:39:47,746 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 21:39:47,746 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 21:39:47,747 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:39:49,786 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 21:39:49,787 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-213949.html -quickprogress
+2025-04-13 21:44:49,764 [ERROR] ZAPScanner: Scan timed out after 300 seconds
+2025-04-13 21:45:25,997 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:45:25,998 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:45:25,998 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:45:25,998 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:45:25,999 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:45:33,881 [INFO] scan_manager: Starting quick scan for https://slcm.manipal.edu/
+2025-04-13 21:45:33,882 [INFO] scan_manager: Initializing scanner for https://slcm.manipal.edu/
+2025-04-13 21:45:33,882 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:45:35,914 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 21:45:35,914 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl https://slcm.manipal.edu/ -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-214535.html -quickprogress
+2025-04-13 21:46:15,526 [ERROR] ZAPScanner: Error running scan: 'ZAPSimpleScanner' object has no attribute '_parse_report'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/zap_simple.py", line 180, in run_scan
+    return self._parse_report(report_file)
+           ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ZAPSimpleScanner' object has no attribute '_parse_report'
+2025-04-13 21:47:33,885 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:47:33,885 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:47:33,885 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:47:33,886 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:47:33,887 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:47:39,298 [INFO] scan_manager: Starting quick scan for https://slcm.manipal.edu
+2025-04-13 21:47:39,299 [INFO] scan_manager: Initializing scanner for https://slcm.manipal.edu
+2025-04-13 21:47:39,299 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:47:41,325 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 21:47:41,326 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl https://slcm.manipal.edu -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-214741.html -quickprogress
+2025-04-13 21:52:41,340 [ERROR] ZAPScanner: Scan timed out after 300 seconds
+2025-04-13 21:55:28,454 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:55:28,455 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:55:28,455 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:55:28,456 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:55:28,456 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:55:34,497 [INFO] scan_manager: Starting quick scan for    http://vulnerable-web-app.com
+2025-04-13 21:55:34,497 [INFO] scan_manager: Initializing scanner for    http://vulnerable-web-app.com
+2025-04-13 21:55:34,498 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:55:36,524 [INFO] ZAPScanner: Running quick scan (timeout: 600s)
+2025-04-13 21:55:36,525 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -config scanner.strength=low -config scanner.maxRuleDurationInMins=5 -config scanner.maxScanDurationInMins=10 -quickurl    http://vulnerable-web-app.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-215536.html -quickprogress
+2025-04-13 21:56:44,885 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:56:44,886 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:56:44,886 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:56:44,886 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:56:44,886 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:56:49,764 [INFO] scan_manager: Starting quick scan for    http://vulnerable-web-app.com
+2025-04-13 21:56:49,764 [INFO] scan_manager: Initializing scanner for    http://vulnerable-web-app.com
+2025-04-13 21:56:49,765 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:56:51,804 [INFO] ZAPScanner: Running quick scan (timeout: 600s)
+2025-04-13 21:56:51,804 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -config scanner.strength=low -config scanner.maxRuleDurationInMins=5 -config scanner.maxScanDurationInMins=10 -quickurl    http://vulnerable-web-app.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-215651.html -quickprogress
+2025-04-13 21:57:02,798 [WARNING] vulnerability_analyzer: No vulnerabilities to analyze
+2025-04-13 21:58:00,278 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 21:58:00,280 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 21:58:00,280 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 21:58:00,280 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 21:58:00,280 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 21:58:05,625 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 21:58:05,626 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 21:58:05,626 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 21:58:07,655 [INFO] ZAPScanner: Running quick scan (timeout: 600s)
+2025-04-13 21:58:07,656 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -config scanner.strength=low -config scanner.maxRuleDurationInMins=5 -config scanner.maxScanDurationInMins=10 -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-215807.html -quickprogress
+2025-04-13 22:08:07,702 [ERROR] ZAPScanner: Scan timed out after 600 seconds
+2025-04-13 22:11:04,155 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:11:04,156 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:11:04,156 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:11:04,157 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:11:04,157 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:11:09,306 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 22:11:09,307 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 22:11:09,308 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 22:11:11,333 [INFO] ZAPScanner: Running quick scan (timeout: 300s)
+2025-04-13 22:11:11,335 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -config scanner.strength=low -config scanner.maxRuleDurationInMins=2 -config scanner.maxScanDurationInMins=5 -config scanner.maxResultsToScan=100 -config scanner.maxChildrenToCrawl=10 -config scanner.maxDepthToCrawl=3 -config scanner.maxParseSizeBytes=2621440 -config scanner.maxScansInUI=1 -config scanner.threadPerHost=2 -config scanner.excludeUserAgent=true -config scanner.excludeFromScan=.*\.(css|js|png|jpg|jpeg|gif|ico|woff|woff2|ttf|eot)$ -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-221111.html -quickprogress -config spider.maxDuration=1 -config spider.maxParseSizeBytes=2621440 -config spider.maxChildrenToCrawl=10 -config spider.maxDepthToCrawl=3
+2025-04-13 22:16:11,348 [ERROR] ZAPScanner: Scan timed out after 300 seconds
+2025-04-13 22:21:12,449 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:21:12,450 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:21:12,450 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:21:12,451 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:21:12,452 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:21:17,663 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 22:21:17,664 [INFO] scan_manager: Initializing scanner for http://testphp.vulnweb.com
+2025-04-13 22:21:17,664 [INFO] ZAPScanner: Found ZAP at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 22:21:19,687 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 22:21:19,687 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -config scanner.strength=low -config scanner.maxRuleDurationInMins=1 -config scanner.maxScanDurationInMins=2 -config scanner.maxResultsToScan=50 -config scanner.maxChildrenToCrawl=5 -config scanner.maxDepthToCrawl=2 -config scanner.maxParseSizeBytes=1048576 -config scanner.maxScansInUI=1 -config scanner.threadPerHost=1 -config scanner.excludeUserAgent=true -config scanner.excludeFromScan=.*\.(css|js|png|jpg|jpeg|gif|ico|woff|woff2|ttf|eot)$ -config spider.maxDuration=1 -config spider.maxParseSizeBytes=1048576 -config spider.maxChildrenToCrawl=5 -config spider.maxDepthToCrawl=2 -config spider.maxThreads=1 -config spider.maxTimeInMinutes=1 -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-222119.html -quickprogress -config spider.maxDuration=1 -config spider.maxParseSizeBytes=1048576 -config spider.maxChildrenToCrawl=5 -config spider.maxDepthToCrawl=2 -config spider.maxThreads=1 -config spider.maxTimeInMinutes=1 -config scanner.maxRuleDurationInMins=1 -config scanner.maxScanDurationInMins=2 -config scanner.maxResultsToScan=50 -config scanner.maxChildrenToCrawl=5 -config scanner.maxDepthToCrawl=2 -config scanner.maxParseSizeBytes=1048576 -config scanner.maxScansInUI=1 -config scanner.threadPerHost=1 -config scanner.excludeUserAgent=true -config scanner.excludeFromScan=.*\.(css|js|png|jpg|jpeg|gif|ico|woff|woff2|ttf|eot)$
+2025-04-13 22:23:37,449 [WARNING] vulnerability_analyzer: No vulnerabilities to analyze
+2025-04-13 22:24:01,507 [WARNING] vulnerability_analyzer: No vulnerabilities to analyze
+2025-04-13 22:24:01,525 [INFO] chatbot: Processing query: hi...
+2025-04-13 22:24:02,162 [ERROR] chatbot: Error processing query: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-13 22:28:39,504 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:28:39,505 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:28:39,505 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:28:39,505 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:28:39,506 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:30:46,322 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:30:46,324 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:30:46,324 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:30:46,324 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:30:46,325 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:32:27,229 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:32:27,230 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:32:27,230 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:32:27,230 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:32:27,231 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:33:51,877 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:33:51,878 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:33:51,878 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:33:51,879 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:33:51,879 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:39:15,062 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:39:15,063 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:39:15,063 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:39:15,063 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:39:15,063 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:39:35,211 [INFO] chatbot: Processing query: hi...
+2025-04-13 22:39:35,925 [ERROR] chatbot: Error processing query: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-13 22:40:21,273 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:40:21,275 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:40:21,275 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:40:21,275 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:40:21,276 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:42:31,509 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:42:31,510 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:42:31,510 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:42:31,510 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:42:31,511 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:43:40,576 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:43:40,577 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:43:40,577 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:43:40,577 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:43:40,578 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 22:45:19,238 [INFO] chatbot: Initializing VulnerabilityChatbot
+2025-04-13 22:45:19,241 [INFO] vulnerability_analyzer: Initializing VulnerabilityAnalyzer
+2025-04-13 22:45:19,241 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/false_positive_model.joblib
+2025-04-13 22:45:19,241 [INFO] vulnerability_analyzer: Creating new model at /Users/ratish_jha/Desktop/csf_proj/models/vulnerability_ranker.joblib
+2025-04-13 22:45:19,242 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:27:40,424 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:43:16,846 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:43:16,847 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:43:20,917 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:43:20,917 [INFO] ZAPScanner: Target URL set to: http:///testphp.vulnweb.com
+2025-04-13 23:43:20,918 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:43:20,918 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:43:20,918 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:43:20,918 [ERROR] scan_manager: Error during scan: 'scanner_settings'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 41, in start_scan
+    scanner_settings=scan_config["scanner_settings"]
+                     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'scanner_settings'
+2025-04-13 23:44:27,428 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:44:27,429 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:44:30,432 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:44:30,433 [INFO] ZAPScanner: Target URL set to: http:///testphp.vulnweb.com
+2025-04-13 23:44:30,433 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:44:30,433 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:44:30,433 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:44:32,472 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 23:44:32,473 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http:///testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-234432.html -quickprogress
+2025-04-13 23:44:43,322 [ERROR] scan_manager: Error during scan: 'ReportGenerator' object has no attribute 'generate_report'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 70, in start_scan
+    self.report_generator.generate_report(scan_results, report_path)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ReportGenerator' object has no attribute 'generate_report'. Did you mean: 'generate_all_reports'?
+2025-04-13 23:46:06,781 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:46:06,782 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:46:08,900 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:46:08,900 [INFO] ZAPScanner: Target URL set to: http:///testphp.vulnweb.com
+2025-04-13 23:46:08,900 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:46:08,900 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:46:08,900 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:46:10,941 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 23:46:10,942 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http:///testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-234610.html -quickprogress
+2025-04-13 23:46:21,537 [INFO] report_generator: Generating all reports
+2025-04-13 23:46:21,538 [INFO] report_generator: Generating management summary
+2025-04-13 23:46:23,452 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:46:23,452 [INFO] report_generator: Generating developer report
+2025-04-13 23:46:23,778 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:46:23,778 [INFO] report_generator: Generating technical report
+2025-04-13 23:46:25,137 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:46:25,138 [INFO] report_generator: Saving management report
+2025-04-13 23:46:25,138 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250413_234625.md
+2025-04-13 23:46:25,138 [INFO] report_generator: Saving developer report
+2025-04-13 23:46:25,138 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250413_234625.md
+2025-04-13 23:46:25,138 [INFO] report_generator: Saving technical report
+2025-04-13 23:46:25,138 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250413_234625.md
+2025-04-13 23:46:25,142 [ERROR] vulnerability_analyzer: Error analyzing vulnerabilities: 'list' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/vulnerability_analyzer.py", line 32, in analyze_vulnerabilities
+    alerts = scan_results.get("alerts", [])
+             ^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
+2025-04-13 23:48:36,368 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:48:36,369 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:48:38,231 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:48:38,232 [INFO] ZAPScanner: Target URL set to: http:///testphp.vulnweb.com
+2025-04-13 23:48:38,232 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:48:38,233 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:48:38,233 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:48:40,274 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 23:48:40,274 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http:///testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-234840.html -quickprogress
+2025-04-13 23:48:51,420 [INFO] report_generator: Generating all reports
+2025-04-13 23:48:51,421 [INFO] report_generator: Generating management summary
+2025-04-13 23:48:52,019 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:48:52,019 [INFO] report_generator: Generating developer report
+2025-04-13 23:48:53,265 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:48:53,265 [INFO] report_generator: Generating technical report
+2025-04-13 23:48:53,620 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:48:53,621 [INFO] report_generator: Saving management report
+2025-04-13 23:48:53,622 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250413_234853.md
+2025-04-13 23:48:53,622 [INFO] report_generator: Saving developer report
+2025-04-13 23:48:53,623 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250413_234853.md
+2025-04-13 23:48:53,623 [INFO] report_generator: Saving technical report
+2025-04-13 23:48:53,623 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250413_234853.md
+2025-04-13 23:50:31,158 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:50:31,160 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:50:34,567 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:50:34,567 [INFO] ZAPScanner: Target URL set to: http:///testphp.vulnweb.com
+2025-04-13 23:50:34,567 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:50:34,567 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:50:34,567 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:50:36,592 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 23:50:36,593 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http:///testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-235036.html -quickprogress
+2025-04-13 23:50:47,287 [INFO] report_generator: Generating all reports
+2025-04-13 23:50:47,288 [INFO] report_generator: Generating management summary
+2025-04-13 23:50:47,907 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:50:47,907 [INFO] report_generator: Generating developer report
+2025-04-13 23:50:49,129 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:50:49,130 [INFO] report_generator: Generating technical report
+2025-04-13 23:50:49,541 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:50:49,542 [INFO] report_generator: Saving management report
+2025-04-13 23:50:49,543 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250413_235049.md
+2025-04-13 23:50:49,543 [INFO] report_generator: Saving developer report
+2025-04-13 23:50:49,544 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250413_235049.md
+2025-04-13 23:50:49,544 [INFO] report_generator: Saving technical report
+2025-04-13 23:50:49,544 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250413_235049.md
+2025-04-13 23:51:37,899 [ERROR] simple_chatbot: Error processing query: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:55:00,232 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:55:00,963 [INFO] report_generator: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-13 23:55:00,963 [INFO] report_generator: Using gemini-pro model
+2025-04-13 23:55:00,965 [INFO] report_generator: Initializing ReportGenerator
+2025-04-13 23:55:02,779 [INFO] report_generator: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-13 23:55:02,780 [INFO] report_generator: Using gemini-pro model
+2025-04-13 23:55:03,339 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-13 23:55:03,339 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-13 23:55:09,677 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:55:09,677 [INFO] ZAPScanner: Target URL set to: http://testphp.vulnweb.com
+2025-04-13 23:55:09,678 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-13 23:55:09,679 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-13 23:55:09,679 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-13 23:55:11,720 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-13 23:55:11,720 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250413-235511.html -quickprogress
+2025-04-13 23:57:30,678 [INFO] report_generator: Generating all reports
+2025-04-13 23:57:30,680 [INFO] report_generator: Generating management summary
+2025-04-13 23:57:32,462 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:57:32,463 [INFO] report_generator: Generating developer report
+2025-04-13 23:57:32,765 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:57:32,765 [INFO] report_generator: Generating technical report
+2025-04-13 23:57:33,058 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-13 23:57:33,058 [INFO] report_generator: Saving management report
+2025-04-13 23:57:33,059 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250413_235733.md
+2025-04-13 23:57:33,060 [INFO] report_generator: Saving developer report
+2025-04-13 23:57:33,060 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250413_235733.md
+2025-04-13 23:57:33,060 [INFO] report_generator: Saving technical report
+2025-04-13 23:57:33,061 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250413_235733.md
+2025-04-14 00:25:53,527 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:25:54,100 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:25:54,101 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:25:54,103 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:25:55,937 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:25:55,938 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:25:57,725 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:25:57,725 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 00:26:07,364 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:26:07,365 [INFO] ZAPScanner: Target URL set to: http://testphp.vulnweb.com
+2025-04-14 00:26:07,366 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-14 00:26:07,366 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-14 00:26:07,366 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:26:09,401 [INFO] ZAPScanner: Running quick scan (timeout: 180s)
+2025-04-14 00:26:09,403 [INFO] ZAPScanner: Running command: /Applications/ZAP.app/Contents/Java/zap.sh -cmd -quickurl http://testphp.vulnweb.com -quickout /Users/ratish_jha/Desktop/csf_proj/reports/quick_scan_20250414-002609.html -quickprogress
+2025-04-14 00:28:27,328 [INFO] report_generator: Generating all reports
+2025-04-14 00:28:27,329 [INFO] report_generator: Generating management summary
+2025-04-14 00:28:29,112 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:28:29,112 [INFO] report_generator: Generating developer report
+2025-04-14 00:28:29,417 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:28:29,417 [INFO] report_generator: Generating technical report
+2025-04-14 00:28:30,733 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:28:30,733 [INFO] report_generator: Saving management report
+2025-04-14 00:28:30,733 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250414_002830.md
+2025-04-14 00:28:30,733 [INFO] report_generator: Saving developer report
+2025-04-14 00:28:30,734 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250414_002830.md
+2025-04-14 00:28:30,734 [INFO] report_generator: Saving technical report
+2025-04-14 00:28:30,734 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250414_002830.md
+2025-04-14 00:34:03,954 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:34:04,597 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:34:04,598 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:34:04,598 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:34:06,391 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:34:06,392 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:34:07,002 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:34:07,002 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 00:34:09,493 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:34:09,494 [INFO] ZAPScanner: Target URL set to: http://testphp.vulnweb.com
+2025-04-14 00:34:09,494 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-14 00:34:09,495 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-14 00:34:09,495 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:34:09,496 [ERROR] ZAPScanner: Error running quick scan: 'ZAPSimpleScanner' object has no attribute 'stop_zap'
+2025-04-14 00:37:17,388 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:37:19,203 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:37:19,203 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:37:19,204 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:37:19,894 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:37:19,894 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:37:21,638 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:37:21,638 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 00:37:25,963 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:37:25,964 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-14 00:37:25,964 [INFO] ZAPScanner: Initialized ZAP scanner with target URL: http://testphp.vulnweb.com
+2025-04-14 00:37:25,964 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-14 00:37:25,964 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:37:25,965 [INFO] ZAPScanner: Starting quick scan on http://testphp.vulnweb.com
+2025-04-14 00:39:45,039 [ERROR] scan_manager: Error during scan: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/Users/ratish_jha/Desktop/csf_proj/scan_manager.py", line 57, in start_scan
+    risk = alert.get("risk", "Info")
+           ^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-04-14 00:40:55,253 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:40:55,815 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:40:55,815 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:40:55,816 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:40:57,627 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:40:57,627 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:40:59,381 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:40:59,381 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 00:41:02,070 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:41:02,071 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-14 00:41:02,071 [INFO] ZAPScanner: Initialized ZAP scanner with target URL: http://testphp.vulnweb.com
+2025-04-14 00:41:02,071 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-14 00:41:02,072 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:41:02,072 [INFO] ZAPScanner: Starting quick scan on http://testphp.vulnweb.com
+2025-04-14 00:43:21,117 [WARNING] scan_manager: Received string alert instead of dictionary: alerts
+2025-04-14 00:43:21,119 [WARNING] scan_manager: Received string alert instead of dictionary: report_file
+2025-04-14 00:43:21,119 [WARNING] scan_manager: Received string alert instead of dictionary: scan_time
+2025-04-14 00:43:21,119 [WARNING] scan_manager: Received string alert instead of dictionary: target_url
+2025-04-14 00:43:21,119 [WARNING] scan_manager: Received string alert instead of dictionary: scan_status
+2025-04-14 00:43:21,119 [INFO] report_generator: Generating all reports
+2025-04-14 00:43:21,119 [INFO] report_generator: Generating management summary
+2025-04-14 00:43:22,926 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:43:22,926 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:43:22,926 [INFO] report_generator: Generating developer report
+2025-04-14 00:43:23,231 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:43:23,231 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:43:23,231 [INFO] report_generator: Generating technical report
+2025-04-14 00:43:23,849 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:43:23,849 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:43:23,849 [INFO] report_generator: Saving management report
+2025-04-14 00:43:23,849 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250414_004323.md
+2025-04-14 00:43:23,849 [INFO] report_generator: Saving developer report
+2025-04-14 00:43:23,850 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250414_004323.md
+2025-04-14 00:43:23,850 [INFO] report_generator: Saving technical report
+2025-04-14 00:43:23,850 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250414_004323.md
+2025-04-14 00:44:28,921 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:44:29,519 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:44:29,519 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:44:29,520 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 00:44:31,350 [INFO] report_generator: Available Gemini models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:44:31,350 [INFO] report_generator: Successfully initialized gemini-pro model
+2025-04-14 00:44:31,920 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 00:44:31,920 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 00:44:34,069 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:44:34,070 [INFO] ZAPScanner: Found ZAP in Applications: /Applications/ZAP.app/Contents/Java
+2025-04-14 00:44:34,070 [INFO] ZAPScanner: Initialized ZAP scanner with target URL: http://testphp.vulnweb.com
+2025-04-14 00:44:34,070 [INFO] ZAPScanner: Using ZAP installation at: /Applications/ZAP.app/Contents/Java/zap.sh
+2025-04-14 00:44:34,070 [INFO] scan_manager: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 00:44:34,070 [INFO] ZAPScanner: Starting quick scan on http://testphp.vulnweb.com
+2025-04-14 00:46:52,802 [WARNING] scan_manager: Received string alert instead of dictionary: alerts
+2025-04-14 00:46:52,803 [WARNING] scan_manager: Received string alert instead of dictionary: report_file
+2025-04-14 00:46:52,804 [WARNING] scan_manager: Received string alert instead of dictionary: scan_time
+2025-04-14 00:46:52,804 [WARNING] scan_manager: Received string alert instead of dictionary: target_url
+2025-04-14 00:46:52,804 [WARNING] scan_manager: Received string alert instead of dictionary: scan_status
+2025-04-14 00:46:52,804 [INFO] report_generator: Generating all reports
+2025-04-14 00:46:52,804 [INFO] report_generator: Generating management summary
+2025-04-14 00:46:54,606 [ERROR] report_generator: Error generating management summary: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:46:54,606 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:46:54,606 [INFO] report_generator: Generating developer report
+2025-04-14 00:46:54,903 [ERROR] report_generator: Error generating developer report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:46:54,903 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:46:54,903 [INFO] report_generator: Generating technical report
+2025-04-14 00:46:56,248 [ERROR] report_generator: Error generating technical report: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-04-14 00:46:56,248 [ERROR] report_generator: Error generating fallback summary: 'str' object has no attribute 'get'
+2025-04-14 00:46:56,248 [INFO] report_generator: Saving management report
+2025-04-14 00:46:56,250 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/management_report_20250414_004656.md
+2025-04-14 00:46:56,250 [INFO] report_generator: Saving developer report
+2025-04-14 00:46:56,250 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/developer_report_20250414_004656.md
+2025-04-14 00:46:56,250 [INFO] report_generator: Saving technical report
+2025-04-14 00:46:56,251 [INFO] report_generator: Report saved to /Users/ratish_jha/Desktop/csf_proj/reports/technical_report_20250414_004656.md
+2025-04-14 00:46:56,255 [WARNING] __main__: Received string alert instead of dictionary: alerts
+2025-04-14 00:46:56,255 [WARNING] __main__: Received string alert instead of dictionary: report_file
+2025-04-14 00:46:56,255 [WARNING] __main__: Received string alert instead of dictionary: scan_time
+2025-04-14 00:46:56,255 [WARNING] __main__: Received string alert instead of dictionary: target_url
+2025-04-14 00:46:56,258 [WARNING] __main__: Received string alert instead of dictionary: scan_status
+2025-04-14 03:43:47,210 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:43:47,781 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:43:47,781 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:43:49,470 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:43:49,472 [ERROR] simple_chatbot: Error initializing chatbot: GEMINI_API_KEY not found in environment variables
+2025-04-14 03:45:08,850 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:45:10,632 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:45:10,632 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:45:11,051 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:45:11,051 [ERROR] simple_chatbot: Error initializing chatbot: GEMINI_API_KEY not found in environment variables
+2025-04-14 03:46:48,326 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:46:50,009 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:46:50,011 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 03:46:51,687 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 03:46:51,688 [ERROR] simple_chatbot: Error initializing chatbot: GEMINI_API_KEY not found in environment variables
+2025-04-14 04:01:26,439 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 04:01:27,008 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 04:01:27,008 [INFO] report_generator: Initializing ReportGenerator
+2025-04-14 04:01:28,675 [WARNING] report_generator: Gemini API not available: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-04-14 04:01:29,133 [INFO] simple_chatbot: Available models: ['models/chat-bison-001', 'models/text-bison-001', 'models/embedding-gecko-001', 'models/gemini-1.0-pro-vision-latest', 'models/gemini-pro-vision', 'models/gemini-1.5-pro-latest', 'models/gemini-1.5-pro-001', 'models/gemini-1.5-pro-002', 'models/gemini-1.5-pro', 'models/gemini-1.5-flash-latest', 'models/gemini-1.5-flash-001', 'models/gemini-1.5-flash-001-tuning', 'models/gemini-1.5-flash', 'models/gemini-1.5-flash-002', 'models/gemini-1.5-flash-8b', 'models/gemini-1.5-flash-8b-001', 'models/gemini-1.5-flash-8b-latest', 'models/gemini-1.5-flash-8b-exp-0827', 'models/gemini-1.5-flash-8b-exp-0924', 'models/gemini-2.5-pro-exp-03-25', 'models/gemini-2.5-pro-preview-03-25', 'models/gemini-2.0-flash-exp', 'models/gemini-2.0-flash', 'models/gemini-2.0-flash-001', 'models/gemini-2.0-flash-exp-image-generation', 'models/gemini-2.0-flash-lite-001', 'models/gemini-2.0-flash-lite', 'models/gemini-2.0-flash-lite-preview-02-05', 'models/gemini-2.0-flash-lite-preview', 'models/gemini-2.0-pro-exp', 'models/gemini-2.0-pro-exp-02-05', 'models/gemini-exp-1206', 'models/gemini-2.0-flash-thinking-exp-01-21', 'models/gemini-2.0-flash-thinking-exp', 'models/gemini-2.0-flash-thinking-exp-1219', 'models/learnlm-1.5-pro-experimental', 'models/gemma-3-1b-it', 'models/gemma-3-4b-it', 'models/gemma-3-12b-it', 'models/gemma-3-27b-it', 'models/embedding-001', 'models/text-embedding-004', 'models/gemini-embedding-exp-03-07', 'models/gemini-embedding-exp', 'models/aqa', 'models/imagen-3.0-generate-002', 'models/gemini-2.0-flash-live-001']
+2025-04-14 04:01:29,133 [INFO] simple_chatbot: Using gemini-pro model
+2025-04-14 04:01:33,118 [INFO] __main__: Starting quick scan for http://testphp.vulnweb.com
+2025-04-14 04:01:33,118 [ERROR] ZAPScanner: ZAP not found in any of the expected locations
+2025-04-14 04:01:33,119 [ERROR] scan_manager: Error during scan: ZAP installation not found
+Traceback (most recent call last):
+  File "C:\Users\kumar\OneDrive\Desktop\csf_proj\scan_manager.py", line 30, in start_scan
+    self.scanner = ZAPSimpleScanner(target_url, str(self.reports_dir))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kumar\OneDrive\Desktop\csf_proj\zap_simple.py", line 55, in __init__
+    raise RuntimeError("ZAP installation not found")
+RuntimeError: ZAP installation not found
